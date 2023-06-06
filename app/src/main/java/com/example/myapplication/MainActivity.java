@@ -48,21 +48,17 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.addM:
                     {
                         //임시로 버튼 스캔에 연결해 둠
-                        Intent intent2 = new Intent(getApplicationContext(), BtnScan.class);
+                        Intent intent2 = new Intent(getApplicationContext(), AddActivity.class);
                         intent2.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                         startActivityForResult(intent2, 101);
-                        finish();
                         break;
                     }
                     case R.id.listM:
                     {
-
-                        finish();
                         break;
                     }
                     case R.id.optionM:
                     {
-                        finish();
                         break;
                     }
                 }

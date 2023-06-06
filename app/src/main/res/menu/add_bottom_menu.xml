@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/backM"
+        android:checked="false"
+        android:icon="@drawable/left_arrow"
+        android:title="뒤로가기" />
+    <item
+        android:id="@+id/barcodeM"
+        android:checked="false"
+        android:icon="@drawable/camera"
+        android:title="바코드 인식"/>
+    <item
+        android:id="@+id/okM"
+        android:checked="false"
+        android:icon="@drawable/todolist"
+        android:title="등록" />
+</menu>
